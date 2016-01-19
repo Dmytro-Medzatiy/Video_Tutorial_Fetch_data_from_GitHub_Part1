@@ -1,0 +1,243 @@
+{
+  "pages": [
+    {
+      "pageName": "MainPage",
+      "pagePath": "/main",
+      "children": [
+        {
+          "variantName": "mini mesh",
+          "type": "Grid",
+          "props": {
+            "fluid": true,
+            "style": {
+              "marginTop": "50px"
+            }
+          },
+          "children": [
+            {
+              "type": "Row",
+              "children": [
+                {
+                  "type": "Col",
+                  "props": {
+                    "xs": 3,
+                    "md": 3,
+                    "sm": 3,
+                    "lg": 3,
+                    "className": "hidden-xs"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "Col",
+                  "props": {
+                    "xs": 12,
+                    "md": 12,
+                    "sm": 12,
+                    "lg": 6
+                  },
+                  "children": [
+                    {
+                      "type": "Panel",
+                      "props": {
+                        "header": "GitHub Repos",
+                        "bsStyle": "primary"
+                      },
+                      "children": [
+                        {
+                          "variantName": "Unsaved variant",
+                          "type": "form",
+                          "props": {},
+                          "children": [
+                            {
+                              "variantName": "2 colums",
+                              "type": "Grid",
+                              "props": {
+                                "fluid": true
+                              },
+                              "children": [
+                                {
+                                  "type": "Row",
+                                  "children": [
+                                    {
+                                      "type": "Col",
+                                      "props": {
+                                        "xs": 8,
+                                        "md": 8,
+                                        "sm": 8,
+                                        "lg": 8
+                                      },
+                                      "children": [
+                                        {
+                                          "type": "Input",
+                                          "props": {
+                                            "type": "text",
+                                            "hasFeedback": true,
+                                            "placeholder": "Owner name"
+                                          },
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "Col",
+                                      "props": {
+                                        "xs": 4,
+                                        "md": 4,
+                                        "sm": 4,
+                                        "lg": 4
+                                      },
+                                      "children": [
+                                        {
+                                          "type": "Button",
+                                          "props": {
+                                            "bsStyle": "primary"
+                                          },
+                                          "children": [
+                                            {
+                                              "type": "span",
+                                              "text": "Fetch data",
+                                              "props": {},
+                                              "componentName": null
+                                            }
+                                          ],
+                                          "componentName": null
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "props": {}
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Table",
+                          "props": {
+                            "striped": true,
+                            "bordered": false,
+                            "condensed": false,
+                            "hover": true
+                          },
+                          "children": [
+                            {
+                              "type": "thead",
+                              "props": {},
+                              "children": [
+                                {
+                                  "type": "tr",
+                                  "children": [
+                                    {
+                                      "type": "th",
+                                      "children": [
+                                        {
+                                          "type": "span",
+                                          "text": "Repo name",
+                                          "props": {}
+                                        }
+                                      ],
+                                      "props": {}
+                                    },
+                                    {
+                                      "type": "th",
+                                      "children": [
+                                        {
+                                          "type": "span",
+                                          "text": "Stars",
+                                          "props": {}
+                                        }
+                                      ],
+                                      "props": {}
+                                    },
+                                    {
+                                      "type": "th",
+                                      "children": [
+                                        {
+                                          "type": "span",
+                                          "text": "Open Issues",
+                                          "props": {}
+                                        }
+                                      ],
+                                      "props": {}
+                                    }
+                                  ],
+                                  "props": {}
+                                }
+                              ]
+                            },
+                            {
+                              "type": "tbody",
+                              "props": {},
+                              "children": [
+                                {
+                                  "type": "tr",
+                                  "children": [
+                                    {
+                                      "type": "td",
+                                      "children": [
+                                        {
+                                          "type": "span",
+                                          "text": "name",
+                                          "props": {}
+                                        }
+                                      ],
+                                      "props": {}
+                                    },
+                                    {
+                                      "type": "td",
+                                      "children": [
+                                        {
+                                          "type": "span",
+                                          "text": "stargazers_count",
+                                          "props": {}
+                                        }
+                                      ],
+                                      "props": {}
+                                    },
+                                    {
+                                      "type": "td",
+                                      "children": [
+                                        {
+                                          "type": "span",
+                                          "text": "open_issues_count",
+                                          "props": {}
+                                        }
+                                      ],
+                                      "props": {}
+                                    }
+                                  ],
+                                  "props": {}
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Col",
+                  "props": {
+                    "xs": 3,
+                    "md": 3,
+                    "sm": 3,
+                    "lg": 3,
+                    "className": "hidden-xs"
+                  },
+                  "children": []
+                }
+              ],
+              "props": {}
+            }
+          ]
+        }
+      ],
+      "props": {},
+      "pageTitle": "UnnamedPage",
+      "pageProps": [],
+      "pageScript": ""
+    }
+  ]
+}
