@@ -1,6 +1,8 @@
 [![structor compatible](https://img.shields.io/badge/structor%20compatible-v0.2.4-0077dd.svg?style=flat)](http://helmetrex.com)
 
 ### Description
+
+Code from the first part of the video tutorial: https://youtu.be/AY65e6Ry_rY?list=PLAcaUOtEwjoR_U6eE2HQEXwkefeVESix1
 Starter project with a set of more than 40 React Bootstrap & React Widgets components. Also, has a scaffold for the server backend.
  
 ### Documentation
