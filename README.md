@@ -20,7 +20,7 @@ Prepack documentation
 * [Generator for smart Redux component (container)](https://github.com/ipselon/bootstrap-prepack/wiki/Generator-for-smart-Redux-component-(container))
 * [Migration guide](https://github.com/ipselon/bootstrap-prepack/wiki/Migration-guide)
  
-<img src="https://github.com/ipselon/bootstrap-prepack/blob/master/screenshot.png" style="width: 100%"></img>
+<img src="https://github.com/Dmytro-Medzatiy/Video_Tutorial_Fetch_data_from_GitHub_Part1/blob/master/screenshot.png" style="width: 100%"></img>
 <br/>
 ### Technologies and libraries
 The following libs and technologies were used:
